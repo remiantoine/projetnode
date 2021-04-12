@@ -1,4 +1,6 @@
 {
+  "name": "hapipal-boilerplate",
+  "version": "3.0.0",
   "main": "lib/index.js",
   "scripts": {
     "start": "node server",
@@ -8,7 +10,12 @@
   "dependencies": {
     "@hapi/boom": "9.x.x",
     "@hapipal/haute-couture": "4.x.x",
-    "joi": "17.x.x"
+    "@hapipal/schwifty": "6.x.x",
+    "joi": "17.x.x",
+    "objection": "2.x.x"
+  },
+  "peerDependencies": {
+    "knex": "0.21.x"
   },
   "devDependencies": {
     "@hapi/code": "8.x.x",
@@ -17,6 +24,7 @@
     "@hapi/glue": "8.x.x",
     "@hapi/hapi": "20.x.x",
     "@hapi/inert": "6.x.x",
+    "@hapi/hoek": "9.x.x",
     "@hapi/lab": "24.x.x",
     "@hapi/vision": "6.x.x",
     "@hapipal/confidence": "6.x.x",
@@ -28,5 +36,8 @@
     "eslint": "7.x.x",
     "exiting": "6.x.x",
     "hapi-swagger": "14.x.x"
+    "exiting": "6.x.x",
+    "knex": "0.21.x",
+    "sqlite3": "5.x.x"
   }
 }
