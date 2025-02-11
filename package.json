@@ -20,6 +20,7 @@
     "@hapipal/haute-couture": "4.x.x",
     "@hapipal/schmervice": "^3.0.0",
     "@hapipal/schwifty": "6.x.x",
+    "@joi/date": "^2.1.1",
     "@randombullshitgo/iut_encrypt": "^1.0.0",
     "exiting": "6.0.1",
     "joi": "17.x.x",
