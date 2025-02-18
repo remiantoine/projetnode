@@ -24,6 +24,7 @@
     "@randombullshitgo/iut_encrypt": "^1.0.0",
     "exiting": "6.0.1",
     "joi": "17.x.x",
+    "json2csv": "^6.0.0-alpha.2",
     "mysql": "^2.18.1",
     "nodemailer": "^6.10.0",
     "objection": "2.x.x",
